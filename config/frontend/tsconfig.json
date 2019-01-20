@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "ES6",
+		"target": "ES6",
+		"jsx": "preserve",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"noImplicitAny": false,
+		"sourceMap": false,
+		"rootDir": "../../src/frontend",
+		"outDir": "../../public/dist/",
+		"outFile": "app.bundle.js"
+	},
+	"awesomeTypescriptLoaderOptions": {
+		"useBabel": false,
+		"useCache": false,
+		"emitRequireType": false
+	},
+	"include": [
+		"../../src/frontend/**/*"
+	],
+	"exclude": [
+		"../../node_modules"
+	]
+}
